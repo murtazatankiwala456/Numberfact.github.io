@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap');
+
+body{
+    background-color: #023e8a;
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items:center ;
+}
+
+.container{
+    background-color: #a2d2ff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+    padding: 20px 60px;
+}
+.container h2{
+    text-align: center;
+    font-weight: 500;
+}
+#input{
+    padding: 5px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid white;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#fact{
+    display: none;
+}
